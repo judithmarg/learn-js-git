@@ -76,3 +76,7 @@ function createBoard () {
     }
 }
 createBoard()
+
+function checkMatch(){
+    console.log("pruebitaa")
+}
