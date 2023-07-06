@@ -54,7 +54,7 @@ const cardArray = [
 cardArray.sort(() => 0.5 - Math.random())
 
 const gridDisplay = document.querySelector('#grid')
-const resultDisplay = document.querySelector('#result')
+const resultDisplay = document.querySelector('#resultado')
 let cardsChosen = [];
 let cardsChosenIds = [];
 let cardsWon = [];
@@ -95,7 +95,7 @@ function checkMatch() {
         alert("sorry play again")
     }
     console.log(cardsWon.length)
-    //resultDisplay.textContent = cardsWon.length
+    resultDisplay.textContent = cardsWon.length
     cardsChosen = []
     cardsChosenIds = []
     if(cardsChosen.length !== 0) {
